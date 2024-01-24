@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="container mx-auto lg:px-16 px-6">
+        <nav class="container mx-auto lg:px-16 px-6 mt-12">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -35,7 +35,7 @@
                         <li><a>Sport</a></li>
                         
                     </div>
-                    <a class="btn btn-ghost text-4xl">Hockey<span class="text-orange-600 jusyify-start">’</span>s</a>
+                    <a class="text-4xl">Hockey<span class="text-orange-600 gap-0">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 gap-6 text-xl">
@@ -51,12 +51,12 @@
                     </div>
                     <a class="btn bg-orange-600 text-2xl px-6 text-white">Get Ticket</a>
                 </div>
-                </div>
+            </div>
         </nav>
 
 
 
-        <section class="container mx-auto lg:px-16 px-6">
+        <section class="container mx-auto lg:px-16 px-6 mt-8">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full rounded-box"> 
@@ -504,8 +504,9 @@
 
 
 
-    <footer class="footer px-32 py-20 bg-zinc-950 text-base-content">
-        
+    <footer class="footer lg:px-32 py-10 px-24 lg:py-20 bg-zinc-950 text-base-content">
+        <div  class="grid grid-cols-1 lg:grid-cols-5 ml-10">     
+            <div class="lg:col-span-2">
                 <aside class="text-white">
                     <div>
                         <h2 class="text-4xl font-bold">Get In Touch</h2>
@@ -522,31 +523,50 @@
                         </strong>
                     </div>
                     
-                    </aside> 
-                    <nav class="text-white">
-                        <header class=" text-2xl text-white font-bold">Company</header> 
-                            <a class="mt-6">About us</a>
-                        <a class= "link link-hover mt-2">Design</a>
-                        <a class="link link-hover mt-2">Marketing</a>
-                        <a class="link link-hover mt-2">Advertisem</a>
-                        <a class="link link-hover mt-2">Legal Notice</a>
-                    </nav> 
-                    <nav class="text-white">
-                        <header class="text-white text-2xl font-bold">Support</header> 
-                        <a class="link link-hover mt-6">About us</a>
-                        <a class="link link-hover mt-2">Contact</a>
-                        <a class="link link-hover mt-2">Jobs</a>
-                        <a class="link link-hover mt-2">Press kit</a>
-                    </nav> 
-                    <nav class="text-white">
+                </aside> 
+            </div>
+
+
+            <div class="lg:col-span-2">
+                <div class="grid gap-4 grid-cols-2 lg:grid-cols-2 mt-6">
+                    <div class="lg:mr-8">
+                        <nav class="text-white">
+                            <header class=" text-2xl text-white font-bold">Company</header> 
+                                <button class="mt-6">About us</button><br>
+                                <button class="mt-2">Design</button><br>
+                                <button class="mt-2">Marketing</button><br>
+                                <button class="mt-2">Advertisem</button><br>
+                                <button class="mt-2">Legal Notice</button>
+                        </nav> 
+                    </div>
+                    <div class="ml-16">
+                        <nav class="text-white ml-4">
+                            <header class="text-white text-2xl font-bold">Support</header> 
+                            <button class="mt-6">Advertisem</button><br>
+                                <button class="mt-2">Contact</button><br>
+                                <button class="mt-2">Jobs</button><br>
+                                <button class="mt-2">Press kit</button>
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-1 lg:mt-8 mt-4 lg:ml-16 ml-20">
+                <div>
+                    <nav class="text-white ml-10 ">
                         <header class="text-white text-2xl font-bold">Services</header> 
-                        <a class="link link-hover  mt-6">Terms of use</a>
-                        <a class="link link-hover mt-2">Privacy policy</a>
-                        <a class="link link-hover mt-2">Axademy</a>
-                        <a class="link link-hover mt-2">Private Lesson</a>
-                        <a class="link link-hover mt-2">Hockeys for mids</a>
+                        <button class="mt-6">Terms of use</button><br>
+                        <button class="mt-2">Privacy policy</button><br>
+                        <button class="mt-2">Axademy</button><br>
+                        <button class="mt-2">Private Lesson</button><br>
+                        <button class="mt-2">Hockeys for mids</button>
                     </nav>
-        
-        </footer>
+                </div>
+            </div>
+        <div>
+
+        </div>
+    </footer>
 </body>
 </html>
+
